@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=81391" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=81391" type="text/javascript"></script>
+    <link href="css/main.css?v=78398" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=78398" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -49,7 +49,16 @@
           <div class="contener__action"><span class="fa fa-arrow-left"></span><a href="private.html">Volver</a></div>
         </div>
         <div class="contener__cart">
-          <h4 class="contener__title">Detalle del pedido:</h4>
+          <h4 class="contener__title">Estado:</h4>
+          <div class="contener__status"> 
+            <div class="contener__icon"><span class="fa fa-clock-o"></span></div>
+            <div class="contener__text">Pedido por confirmar</div>
+          </div>
+          <h5 class="contener__title">Detalle del pedido personal:</h5>
+          <div class="contener__profile__small"> 
+            <div class="contener__avatar"> <img src="img/avatars/1.jpg"></div>
+            <div class="contener__name">Eduardo Acevedo</div>
+          </div>
           <div class="contener__products">
             <div class="contener__product"> 
               <div class="contener__bg"> 
@@ -59,12 +68,11 @@
                 <h5 class="contener__title">Machas a la parmesana </h5>
                 <div class="contener__price">$11.500</div>
                 <div class="contener__flex"> 
-                  <div class="contener__more"> 
-                    <div class="contener__less"><span>-</span></div>
-                    <div class="contener__number">1</div>
-                    <div class="contener__plus"><span>+</span></div>
+                  <div class="contener__cant">Cantidad:<span>1</span></div>
+                  <div class="contener__time">
+                    <div class="contener__icon"> <span class="fa fa-clock-o"> </span></div>
+                    <div class="contener__value">Tiempo aprox <span>20 min	</span></div>
                   </div>
-                  <div class="contener__delete"> <a href="#" class="btn"><span class="fa fa-trash"></span></a></div>
                 </div>
               </div>
             </div>
@@ -74,40 +82,65 @@
               </div>
               <div class="contener__body"> 
                 <h5 class="contener__title">Cebiche clásico</h5>
-                <div class="contener__price">$6.800 </div>
+                <div class="contener__price">$6.800</div>
                 <div class="contener__flex"> 
-                  <div class="contener__more"> 
-                    <div class="contener__less"><span>-</span></div>
-                    <div class="contener__number">1</div>
-                    <div class="contener__plus"><span>+</span></div>
+                  <div class="contener__cant">Cantidad:<span>1</span></div>
+                  <div class="contener__time">
+                    <div class="contener__icon"> <span class="fa fa-clock-o"> </span></div>
+                    <div class="contener__value">Tiempo aprox <span>20 min</span></div>
                   </div>
-                  <div class="contener__delete"> <a href="#" class="btn"><span class="fa fa-trash"></span></a></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="contener__cupon"> 
-            <div class="form__element"> 
-              <div class="form__title">Agregar código de descuento </div>
-              <div class="form__input"> 
-                <input type="#">
+          <div class="contener__sep"></div>
+          <h5 class="contener__title">Detalle pedido acompañantes:</h5>
+          <div class="contener__profile__small"> 
+            <div class="contener__avatar"> <img src="img/avatars/2.jpeg"></div>
+            <div class="contener__name">Jose Santander</div>
+          </div>
+          <div class="contener__products">
+            <div class="contener__product"> 
+              <div class="contener__bg"> 
+                <div class="bg"> <img src="img/uploads/6.jpg"></div>
+              </div>
+              <div class="contener__body"> 
+                <h5 class="contener__title">Machas a la parmesana </h5>
+                <div class="contener__price">$11.500</div>
+                <div class="contener__flex"> 
+                  <div class="contener__cant">Cantidad:<span>1</span></div>
+                  <div class="contener__time">
+                    <div class="contener__icon"> <span class="fa fa-clock-o"> </span></div>
+                    <div class="contener__value">Tiempo aprox <span>20 min</span></div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="contener__sep"> </div>
-            <div class="contener__total">
-              <h4 class="contener__title">Tu compra total es de<span>$25.300</span></h4>
+            <div class="contener__product"> 
+              <div class="contener__bg"> 
+                <div class="bg"> <img src="img/uploads/7.jpg"></div>
+              </div>
+              <div class="contener__body"> 
+                <h5 class="contener__title">Cebiche clásico</h5>
+                <div class="contener__price">$6.800</div>
+                <div class="contener__flex"> 
+                  <div class="contener__cant">Cantidad:<span>1</span></div>
+                  <div class="contener__time">
+                    <div class="contener__icon"> <span class="fa fa-clock-o"> </span></div>
+                    <div class="contener__value">Tiempo aprox <span>20 min</span></div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="contener__button"> <a href="private-wait.html" class="btn">Realizar pedido</a></div>
+          </div>
+          <div class="contener__total__total"> 
+            <div class="contener__subtotal">Tu consumo es de: <span>$18.500</span></div>
+            <h3 class="contener__title">La cuenta total es de: <span>$36.600</span></h3>
           </div>
         </div>
       </div>
     </div>
     <footer>
-      <div class="footer__status footer__status--yellow">
-        <div class="footer__icon"><span class="fa fa-clock-o"></span></div>
-        <div class="footer__text"> <a href="status.html">Pedido por confirmar</a></div>
-        <div class="footer__arrow"> <span class="fa fa-angle-right"></span></div>
-      </div>
       <div class="footer__flex"> 
         <div data-options-open class="footer__icon"><a href="#"><img src="img/icons/ring.png"></a></div>
       </div>
